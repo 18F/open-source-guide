@@ -1,14 +1,12 @@
 ---
 permalink: /using-the-wiki/
 layout: default
-title: Best Practices for Using the Wiki
+title: Best practices for using the wiki
 ---
-
 
 Some of our teammates recommend turning off a repo's Wiki unless you have a proactive use for it. But there are many ways to use a Wiki and use it well.
 
 If you’re using GitHub, you can enable a wiki on every GitHub repo by going to its settings and checking the ‘Wikis’ box under ‘Features.’
-
 
 <img src="{{site.baseurl}}/images/wiki1.png" alt="Turn the wiki feature on by going to settings and clicking on Wikis under the box labeled 'Features'">
 

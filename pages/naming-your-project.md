@@ -1,7 +1,7 @@
 ---
 permalink: /naming-your-project/
 layout: default
-title: Naming Your Project
+title: Naming your project
 ---
 
 ### Before naming a project, think ‘Is this easy to understand?’
