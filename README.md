@@ -34,4 +34,4 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 
 ### Contact us
 
-If you'd like to contact us, please create a GitHub issue or email 18F@gsa.gov.
+If you'd like to contact us, please create a GitHub issue or email 18F@gsa.gov. Thank you!
