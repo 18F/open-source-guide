@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Best Practices for Using the Wiki - 18F Open Source Style Guide</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" type="image/ico" href="/open-source-guide/images/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/open-source-guide/images/favicons/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" href="/open-source-guide/images/favicons/18f-center-57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/open-source-guide/images/favicons/18f-center-72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/open-source-guide/images/favicons/18f-center-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/open-source-guide/images/favicons/18f-center-144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/open-source-guide/images/favicons/18f-center-192.png" />
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/open-source-guide/assets/css/main.css">
+  <link rel="stylesheet" href="/open-source-guide/assets/css/syntax.css">
+  <link rel="stylesheet" href="/open-source-guide/assets/css/custom.css">
+  <!--[if lt IE 9]>
+    <script src="/open-source-guide/assets/js/html5shiv.js"></script>
+    <script src="/open-source-guide/assets/js/respond.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body>
+
+    <div class="container">
+
+      <header role="banner">
+
+        <div class="wrap">
+          
+            <img class="logo" src="/open-source-guide/assets/img/18f-logo.png" alt="18F logo" width="75px">
+          
+          <h1 class="site-title"><a class="title-link" href="/open-source-guide/">18F Open Source Style Guide</a></h1>
+        </div>
+        
+      </header>
+
+      <div class="wrap content">
+
+        <aside>
+  <p class="intro"></p>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+    <ul>
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/index.html"  >Introduction</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/naming-your-project/"  >Naming Your Project</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/writing-the-repo-description/"  >Writing The Repo Description</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/making-readmes-readable/"  >Making READMEs readable</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/writing-clear-and-concise-issues/"  >Writing Clear and Concise Issues</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/using-the-wiki/"  >Best Practices For Using the Wiki</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/github-repo-checklist/"  >GitHub Repo Checklist</a>
+            
+          </li>
+        
+      
+    </ul>
+  </nav>
+</aside>
+
+
+        <section id="main" class="main-content" role="main">
+          <h1>Best Practices for Using the Wiki</h1>
+          <p>Some of our teammates recommend turning off a repo&#39;s Wiki unless you have a proactive use for it. But there are many ways to use a Wiki and use it well.</p>
+
+<p>If you’re using GitHub, you can enable a wiki on every GitHub repo by going to its settings and checking the ‘Wikis’ box under ‘Features.’</p>
+
+<p><img src="/open-source-guide/images/wiki1.png" alt="Turn the wiki feature on by going to settings and clicking on Wikis under the box labeled 'Features'"></p>
+
+<p>What does this get you? Tons! You can now put all the great information that would have made your README way too long and complicated into separate, clear pages. For example, the 18f.gsa.gov team uses the wiki for all their “how to do this” work, and catalogues items like decisions on which blogging tags to use across our sites.</p>
+
+<p><img src="/open-source-guide/images/wiki2.png" alt="This is the 18F site wiki, which catalogs how to use tags on their platforms."></p>
+
+<p>Another really great use for the wiki is to house your product roadmap and user research goals. 18F’s Michelle Hertzfeld is a huge proponent of keeping these documents in the repo with the codebase so they’re easy to find, share and get feedback on.</p>
+
+<p><img src="/open-source-guide/images/wiki3" alt="A screenshot of the roadmap for USEITI website, which is located in a wiki"></p>
+
+<h2>Tracking user research on GitHub</h2>
+
+<p>Speaking of user research, some of our project teams also like to keep their research process and findings in the repo along with the code. This helps keep all project documentation together in one place and also makes sure that we’re not only <em>building</em> in the open, but also <em>researching</em> in the open. This way, team members ,and anyone else who is interested, can track the research that went into project decisions.</p>
+
+<p>Naturally, this does not include posting confidential interviews with people or anything else that should not be shared. What it includes are things like:
+* Research plans
+* Interview scripts
+* Summarized research findings</p>
+
+<p>One way to do this is to create an “orphan branch” to keep your research in. An orphan branch is a branch that you name that sits within the repo. Creating an orphan branch lets you have a completely different file structure from the rest of the repo in that branch, and you can put all of your research within that branch, as follows:</p>
+
+<ul>
+<li>First, create a new branch under branch:master and label it with a new name. Michelle chose research. (<a href="https://github.com/18F/doi-extractives-data/tree/research">Example</a>)</li>
+</ul>
+
+<p><img src="/open-source-guide/images/wiki4.png" alt="Create a new branch under branch:master"></p>
+
+<ul>
+<li>You are now on a branch of the repo, where you can store information.</li>
+</ul>
+
+<p><img src="/open-source-guide/images/wiki5.png" alt="A screenshot of the research branch"></p>
+
+<ul>
+<li>Michelle stores information like user research for various sprints <a href="https://github.com/18F/doi-extractives-data/tree/research/research/sprint17">in this repo</a>.</li>
+</ul>
+
+<p><img src="/open-source-guide/images/wiki6.png" alt="Screenshot of user research for Sprint 17"></p>
+
+<ul>
+<li>This makes it easy for others to <a href="https://github.com/18F/doi-extractives-data/blob/research/research/sprint17/sprint17_results.md">find and use the user research</a>, and remains within the project repo.</li>
+</ul>
+
+<p><img src="/open-source-guide/images/wiki7.png" alt="Screenshot of usability tests conducted during Sprint 17"></p>
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <footer role="contentinfo">
+  <div class="wrap">
+    <p>This project is maintained by <a href="https://18f.gsa.gov">18F</a>.</p>
+
+    <p>Hosted on <a href="https://github.com/18F/pages/">18F Pages</a>.</p>
+    <p><a href="https://github.com/18F/open-source-guide/edit/18f-pages/pages/using-the-wiki.md">Edit this page on GitHub</a></p>
+  </div><!--/.wrap -->
+</footer>
+
+
+    </div> <!-- /.container -->
+
+    <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48605964-19', 'gsa.gov');
+
+  // anonymize user IPs (chops off the last IP triplet)
+  ga('set', 'anonymizeIp', true);
+
+  ga('send', 'pageview');
+</script>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script id="_fed_an_ua_tag" src="https://analytics.usa.gov/dap/dap.min.js" async></script>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+
+
+  </body>
+
+</html>

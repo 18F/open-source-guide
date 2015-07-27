@@ -1,0 +1,47 @@
+<aside>
+  <p class="intro">{{ site.subtitle }}</p>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+    <ul>
+      {% for link in site.navigation %}
+        {% if link.internal == true %}
+          <li class="group {% if page.title == link.text %}sidebar-nav-active{% else if page.parent == link.text %}sidebar-parent-active{% endif %}">
+            <a href="{{ site.baseurl }}/{{ link.url }}"  {% if page.title == link.text %}title='Selected'{% endif %}>{{ link.text }}</a>
+            {% if link.children %}
+            <label class="visuallyhidden" for="expand-{{ forloop.index }}">View more</label>
+            <input class="expand-subnav" 
+                    type="checkbox" 
+                    id="expand-{{ forloop.index  }}"
+                    {% if page.title == link.text or page.parent == link.text %}checked{% endif %}>
+              <ul class="nav-children">
+                {% for child in link.children %}
+                  <li {% if page.title == child.text %}class="sidebar-nav-active"{% endif %}>
+                    <a href="{{ site.baseurl }}/{{ link.url}}{{ child.url }}"  {% if page.title == child.text %}title='Selected'{% endif %}>{{ child.text }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% else %}
+          <li class="group {% if page.title == link.text %}sidebar-nav-active{% endif %}">
+            <a href="{{ link.url }}" {% if page.title == link.text %}title='Selected'{% endif %}>{{ link.text }}</a>
+            {% if link.children %}
+            <label class="visuallyhidden" for="expand-{{ forloop.index }}">View more</label>
+            <input class="expand-subnav" 
+                    type="checkbox" 
+                    id="expand-{{ forloop.index  }}"
+                    {% if page.title == link.text or page.parent == link.text %}checked{% endif %}>
+              <ul class="nav-children">
+                {% for child in link.children %}
+                  <li {% if page.title == child.text %}class="sidebar-nav-active"{% endif %}>
+                    <a href="{{ site.baseurl }}/{{ link.url}}{{ child.url }}"  {% if page.title == child.text %}title='Selected'{% endif %}>{{ child.text }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}         
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</aside>

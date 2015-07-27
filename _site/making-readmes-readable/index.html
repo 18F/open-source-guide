@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Making READMEs Readable - 18F Open Source Style Guide</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" type="image/ico" href="/open-source-guide/images/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="/open-source-guide/images/favicons/favicon.png" />
+  <link rel="apple-touch-icon-precomposed" href="/open-source-guide/images/favicons/18f-center-57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/open-source-guide/images/favicons/18f-center-72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/open-source-guide/images/favicons/18f-center-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/open-source-guide/images/favicons/18f-center-144.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/open-source-guide/images/favicons/18f-center-192.png" />
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,700%7COpen+Sans:300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/open-source-guide/assets/css/main.css">
+  <link rel="stylesheet" href="/open-source-guide/assets/css/syntax.css">
+  <link rel="stylesheet" href="/open-source-guide/assets/css/custom.css">
+  <!--[if lt IE 9]>
+    <script src="/open-source-guide/assets/js/html5shiv.js"></script>
+    <script src="/open-source-guide/assets/js/respond.js"></script>
+  <![endif]-->
+</head>
+
+
+  <body>
+
+    <div class="container">
+
+      <header role="banner">
+
+        <div class="wrap">
+          
+            <img class="logo" src="/open-source-guide/assets/img/18f-logo.png" alt="18F logo" width="75px">
+          
+          <h1 class="site-title"><a class="title-link" href="/open-source-guide/">18F Open Source Style Guide</a></h1>
+        </div>
+        
+      </header>
+
+      <div class="wrap content">
+
+        <aside>
+  <p class="intro"></p>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+    <ul>
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/index.html"  >Introduction</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/naming-your-project/"  >Naming Your Project</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/writing-the-repo-description/"  >Writing The Repo Description</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/making-readmes-readable/"  >Making READMEs readable</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/writing-clear-and-concise-issues/"  >Writing Clear and Concise Issues</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/using-the-wiki/"  >Best Practices For Using the Wiki</a>
+            
+          </li>
+        
+      
+        
+          <li class="group sidebar-parent-active">
+            <a href="/open-source-guide/github-repo-checklist/"  >GitHub Repo Checklist</a>
+            
+          </li>
+        
+      
+    </ul>
+  </nav>
+</aside>
+
+
+        <section id="main" class="main-content" role="main">
+          <h1>Making READMEs Readable</h1>
+          <p>Every repo contains a README, which is a document that is intended to explain, at first glance, what a project does and how to install or test the code.</p>
+
+<p>READMEs are really important because they’re the first item a user will see when encountering your code. Creating a readable README ensures that your co-workers and the public will be able to understand the intention of your program, install the software, and fork and adapt your projects.</p>
+
+<p>We find it helpful to think of the README as a guide to your code or project. It’s often helpful to create sections in the README for users to learn about the project. We recommend the following sections.</p>
+
+<h2>A description of what the project is for.</h2>
+
+<p>This should answer a short list of basic questions:</p>
+
+<ul>
+<li><strong>What is this repo or project?</strong> (You can reuse the repo description you used earlier because this section doesn’t have to be long.)</li>
+<li><strong>How does it work?</strong>,</li>
+<li><strong>Who will use this repo or project?</strong></li>
+<li><strong>What is the goal of this project?</strong><br></li>
+</ul>
+
+<p>You likely have the answer to many of these questions in your head and have discussed them with your team. It&#39;s helpful to write them down for people who find your repository. Not only will it be easier for developers to know how to fork the project or become involved with the project, but it will be easy for non-coders to understand what the code is designed to do, and how they, too, can become involved.</p>
+
+<p><strong>Example:</strong> The <a href="https://github.com/18f/midas">README for 18F’s Midas project</a> starts out by answering the questions:</p>
+
+<ul>
+<li>What is Midas?</li>
+<li>How does Midas work?</li>
+<li>Who uses Midas?</li>
+<li>What is Midas’ goal?</li>
+<li>How can your organization benefit from using Midas?</li>
+</ul>
+
+<h2>Instructions for how to develop, use, and test the code.</h2>
+
+<p>This should answer the question: <strong>How do I get this project to work on my machine? How can I develop for this project?</strong> We find it works really well if you follow a two-step approach to develop the content for this section: first, help someone setup the site who has never done it before, and then write down the exact instructions. Next, ask someone to follow those instructions and see if you’ve missed anything.</p>
+
+<p>Important: If relevant code changes, it’s important to test to ensure these instructions continue to work. We also recommend separating the sections for using a project versus developing for it. (More detailed instructions are located <a href="https://pages.18f.gov/open-source-program/pages/maintainer_guidelines/#usage-documentation">in our guidelines</a> for writing documentation for users, contributors, and developers.)</p>
+
+<p><strong>Example:</strong> The README for 18F’s homepage contains detailed instructions for <a href="https://github.com/18F/18f.gsa.gov#developing-the-site">developing the site</a> and <a href="https://github.com/18F/18f.gsa.gov#deploying-the-site">deploying the site</a>.  </p>
+
+<p><strong>Example:</strong> The README for Midas contains a link to <a href="https://github.com/18F/midas/blob/devel/INSTALL.md">installation instructions</a> for developers.</p>
+
+<h2>Instructions for how people can help.</h2>
+
+<p>We <a href="https://github.com/18F/open-source-policy/blob/master/practice.md#accepting-contributions-from-the-public">explicitly welcome outside contributors</a>. It’s important to explicitly state how they can help and what they can help with. This part of the website should answer the question: <strong>How can outside contributors become involved?</strong> We include a <a href="https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> file in each repo, which outlines the following:</p>
+
+<ul>
+<li>If there are any additional setup steps specific for development.</li>
+<li>Whether there are explicit Instructions for running tests before contributions are accepted.</li>
+<li>If there are any requirements for contribution, if any, e.g.
+
+<ul>
+<li>A Contributor License Agreement</li>
+<li>CLAHub</li>
+<li>http://oss-watch.ac.uk/resources/cla</li>
+<li>http://contributoragreements.org/</li>
+<li>If commits should be squashed</li>
+<li>Whether there is a specific coding style to adhere to. (Generally contributors will match what they see within a project.)</li>
+</ul></li>
+<li>Whether potential contributors should ask before they make significant changes.</li>
+<li>Whether work-in-progress pull requests are ok.</li>
+<li>What 18F&#39;s <a href="https://github.com/18F/code-of-conduct">Code of Conduct</a> states</li>
+</ul>
+
+<p><strong>Example:</strong> The README for Midas contains a section called “<a href="https://github.com/18f/midas#how-you-can-help">How you can help.</a>” What we really like about this section is that it doesn’t assume helpers are developers and lists ways for lots of different people to contribute. (Our <a href="https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/">guide to welcoming non-coders to hackathons</a> also contains many suggestions for ways to involve people with different skillsets.)</p>
+
+<p>We also recommend reading Midas’ <a href="https://github.com/18F/midas/blob/devel/CONTRIBUTING.md">Contributor’s Guide</a>, which orients new dev contributors and tells them the best ways to communicate with Midas’ dev team.</p>
+
+<h2>List the licensing information for your project.</h2>
+
+<p>This part of the repo should answer the question: <strong>What is the license for this project?</strong> All 18F projects are developed in the international public domain whenever possible and contain a <a href="https://github.com/18F/open-source-policy/blob/master/LICENSE.md">LICENSE.md</a> document, as well as a paragraph at the end of each README which contains information about the public domain. We post this information <a href="https://github.com/18F/18f.gsa.gov#public-domain">in the README</a>, so that users know the code can be adapted and reused, and so they can easily see this information instead of going to a second site.</p>
+
+<h2>List the contact information for your team as well as where to ask questions.</h2>
+
+<p>This part of the repo should make it easy for users to get in touch with the team developing the project. This is also where you should list any listservs, chat programs, or social media groups that have been created to keep contributors informed.</p>
+
+<p>Any other information that you’d like to share with users can go in the Wiki section of your repository.</p>
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <footer role="contentinfo">
+  <div class="wrap">
+    <p>This project is maintained by <a href="https://18f.gsa.gov">18F</a>.</p>
+
+    <p>Hosted on <a href="https://github.com/18F/pages/">18F Pages</a>.</p>
+    <p><a href="https://github.com/18F/open-source-guide/edit/18f-pages/pages/making-readmes-readable.md">Edit this page on GitHub</a></p>
+  </div><!--/.wrap -->
+</footer>
+
+
+    </div> <!-- /.container -->
+
+    <!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48605964-19', 'gsa.gov');
+
+  // anonymize user IPs (chops off the last IP triplet)
+  ga('set', 'anonymizeIp', true);
+
+  ga('send', 'pageview');
+</script>
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script id="_fed_an_ua_tag" src="https://analytics.usa.gov/dap/dap.min.js" async></script>
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+
+
+  </body>
+
+</html>
