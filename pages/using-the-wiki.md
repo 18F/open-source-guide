@@ -16,7 +16,7 @@ What does this get you? Tons! You can now put all the great information that wou
 
 Another really great use for the wiki is to house your product roadmap and user research goals. 18F’s Michelle Hertzfeld is a huge proponent of keeping these documents in the repo with the codebase so they’re easy to find, share and get feedback on.
 
-<img src="{{site.baseurl}}/images/wiki3" alt="A screenshot of the roadmap for USEITI website, which is located in a wiki">
+<img src="{{site.baseurl}}/images/wiki3.png" alt="A screenshot of the roadmap for USEITI website, which is located in a wiki">
 
 ## Tracking user research on GitHub
 
