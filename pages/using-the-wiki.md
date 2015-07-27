@@ -20,9 +20,10 @@ Another really great use for the wiki is to house your product roadmap and user 
 
 ## Tracking user research on GitHub
 
-Speaking of user research, some of our project teams also like to keep their research process and findings in the repo along with the code. This helps keep all project documentation together in one place and also makes sure that we’re not only *building* in the open, but also *researching* in the open. This way, team members ,and anyone else who is interested, can track the research that went into project decisions.
+Speaking of user research, some of our project teams also like to keep their research process and findings in the repo along with the code. This helps keep all project documentation together in one place and also makes sure that we’re not only *building* in the open, but also *researching* in the open. This way, team members, and anyone else who is interested, can track the research that went into project decisions.
 
 Naturally, this does not include posting confidential interviews with people or anything else that should not be shared. What it includes are things like:
+
 * Research plans
 * Interview scripts
 * Summarized research findings
