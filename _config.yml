@@ -27,22 +27,22 @@ navigation:
 - text: Introduction
   url: index.html
   internal: true
-- text: Naming Your Project
+- text: Naming your project
   url: naming-your-project/
   internal: true
-- text: Writing The Repo Description
+- text: Writing the repo description
   url: writing-the-repo-description/
   internal: true
 - text: Making READMEs readable
   url: making-readmes-readable/
   internal: true
-- text: Writing Clear and Concise Issues
+- text: Writing clear and concise issues
   url: writing-clear-and-concise-issues/
   internal: true
-- text: Best Practices For Using the Wiki
+- text: Best practices for using the wiki
   url: using-the-wiki/
   internal: true
-- text: GitHub Repo Checklist
+- text: GitHub repo checklist
   url: github-repo-checklist/
   internal: true
 

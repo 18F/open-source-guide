@@ -1,7 +1,7 @@
 ---
 permalink: /making-readmes-readable/
 layout: default
-title: Making READMEs Readable
+title: Making READMEs readable
 ---
 
 Every repo contains a README, which is a document that is intended to explain, at first glance, what a project does and how to install or test the code.
@@ -39,7 +39,6 @@ Important: If relevant code changes, it’s important to test to ensure these in
 
 **Example:** The README for Midas contains a link to [installation instructions](https://github.com/18F/midas/blob/devel/INSTALL.md) for developers.
 
-
 ## Instructions for how people can help.
 
 We [explicitly welcome outside contributors](https://github.com/18F/open-source-policy/blob/master/practice.md#accepting-contributions-from-the-public). It’s important to explicitly state how they can help and what they can help with. This part of the website should answer the question: **How can outside contributors become involved?** We include a [CONTRIBUTING.md](https://github.com/18F/open-source-policy/blob/master/CONTRIBUTING.md) file in each repo, which outlines the following:
@@ -56,7 +55,6 @@ We [explicitly welcome outside contributors](https://github.com/18F/open-source-
 * Whether potential contributors should ask before they make significant changes.
 * Whether work-in-progress pull requests are ok.
 * What 18F's [Code of Conduct](https://github.com/18F/code-of-conduct) states
-
 
 **Example:** The README for Midas contains a section called “[How you can help.](https://github.com/18f/midas#how-you-can-help)” What we really like about this section is that it doesn’t assume helpers are developers and lists ways for lots of different people to contribute. (Our [guide to welcoming non-coders to hackathons](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/) also contains many suggestions for ways to involve people with different skillsets.)
 

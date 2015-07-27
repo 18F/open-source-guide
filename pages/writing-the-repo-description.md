@@ -4,7 +4,6 @@ layout: default
 title: Making repo descriptions short and clear
 ---
 
-
 The description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it's better to describe what is contained in the repo itself instead of describing the project.
 
 Repo descriptions should clear, concise, and descriptive. Descriptions are listed under each repository title on an organization’s GitHub page. Anyone who scans the GitHub page should be able to determine what a repo does, just by looking at the description.
@@ -20,7 +19,6 @@ The description for the repo [*midas-open opportunities*](https://github.com/18F
 And the description for the repo [*pulse*](https://github.com/18F/pulse) is "How the .gov space is doing at best practices and federal requirements."
 
 Each of these descriptions is clear and tells the user exactly what she or he will find when opening the repo.
-
 
 <img src="{{site.baseurl}}/images/method-cards-description.png" alt="Screenshot of Description of Method Cards repository. Description: 'An initial collection of design methods, which includes general descriptions, how-tos, and how such methods can be put into practice for government projects">
 
