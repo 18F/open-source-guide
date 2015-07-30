@@ -535,7 +535,11 @@ Desktop Styles
         float: right;
         margin-bottom: 120px;
     }
-
+    
+    .main-content img {
+        max-width: 100%;
+    }
+    
     /*
     Navigation
     ==============================
