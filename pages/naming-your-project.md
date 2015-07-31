@@ -6,6 +6,8 @@ title: Naming your project
 
 ### Before naming a project, think ‘Is this easy to understand?’
 
-We recommend using descriptive names and avoid acronyms. It’s also important to check with your communications team before naming a project so that it can be cleared, if need be.
+To help users find and recognize your project, we recommend using descriptive names that describe what your project does. You should avoid acronyms and clever names/puns as those can make it hard to search for projects. 
 
-For example, if you were creating a template your coworkers could use to create guides, a good name for the repo might be *guides-template*. A bad name might be *the-unnamed-project-that-makes-it-easy-to-build-stuff*.
+You should also do a quick search on the web for your project's name to make sure that name isn't already being used by other software or services, even if it's used in a different space, as it can be confusing for new users. It’s also important to check with your communications team before naming a project so that it can be cleared, if need be.
+
+For example, if you were creating a template your coworkers could use to create guides, a good name for the repo might be *guides-template*. Bad names might include *the-unnamed-project-that-makes-it-easy-to-build-stuff*, *temp-latte*, or *guidestar*.
