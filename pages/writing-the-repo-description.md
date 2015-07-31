@@ -27,3 +27,9 @@ It’s sometimes hard to think of a complete description of the repo in one or t
 ## If a project isn’t active, make that clear
 
 If your repo is not in active development, it’s helpful to let users know this so they don’t make contributions to a non-active repository. We suggest adding the word DEPRECATED before your repo description. [Here is an example](https://github.com/18F/Mario) of a deprecated repo.
+
+## Add a website next to the description, when it exists
+
+Next to the description of a repository, there's a spot to add a link to a website. You should always add a link to a website, if it exists. 
+
+
