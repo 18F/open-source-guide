@@ -31,6 +31,12 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 >dedication. By submitting a pull request, you are agreeing to comply
 >with this waiver of copyright interest.
 
+### How To Create Your Own Guide
+
+This guide is based on the [DOCter template](https://github.com/cfpb/DOCter) created by the
+[Consumer Financial Protection Bureau](http://www.consumerfinance.gov/) (CFPB). Our canonical
+adaptation of DOCter is contained in the [18F Guides Template](https://pages.18f.gov/guides-template/).
+
 
 ### Contact us
 
