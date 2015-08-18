@@ -1,6 +1,5 @@
 ---
 permalink: /writing-clear-and-concise-issues/
-layout: default
 title: Writing clear and concise issues
 ---
 

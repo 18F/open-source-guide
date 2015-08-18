@@ -1,6 +1,5 @@
 ---
 permalink: /using-the-wiki/
-layout: default
 title: Best practices for using the wiki
 ---
 

@@ -1,6 +1,5 @@
 ---
 permalink: /github-repo-checklist/
-layout: default
 title: GitHub repo checklist
 ---
 

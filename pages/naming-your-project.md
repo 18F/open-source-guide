@@ -1,6 +1,5 @@
 ---
 permalink: /naming-your-project/
-layout: default
 title: Naming your project
 ---
 

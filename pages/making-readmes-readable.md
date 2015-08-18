@@ -1,6 +1,5 @@
 ---
 permalink: /making-readmes-readable/
-layout: default
 title: Making READMEs readable
 ---
 
