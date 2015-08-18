@@ -1,6 +1,5 @@
 ---
 permalink: /writing-the-repo-description/
-layout: default
 title: Making repo descriptions short and clear
 ---
 
