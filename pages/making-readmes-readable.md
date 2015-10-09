@@ -63,6 +63,16 @@ We also recommend reading Midas’ [Contributor’s Guide](https://github.com/18
 
 This part of the repo should answer the question: **What is the license for this project?** All 18F projects are developed in the international public domain whenever possible and contain a [LICENSE.md](https://github.com/18F/open-source-policy/blob/master/LICENSE.md) document, as well as a paragraph at the end of each README which contains information about the public domain. We post this information [in the README](https://github.com/18F/18f.gsa.gov#public-domain), so that users know the code can be adapted and reused, and so they can easily see this information instead of going to a second site.
 
+### Include credit and licenses for embedded resources
+
+If your project includes code or other resources (such as icons, fonts, or photos) from outside sources, your project's license description (in the README, LICENSE, and CONTRIBUTING files) should credit the authors of that work and include their license information.
+
+It's polite to give full credit when reusing work, even if not legally required by the work's license, and this helps users who want to find the original source and use it.
+
+We also have a legal responsibility to respect the licenses of work we use. When adapting or embedding outside work, check its license for instructions for complying with that license.
+
+For example, see ["Licenses and attribution" in the U.S. Web Design Standards README](https://github.com/18F/web-design-standards#licenses-and-attribution). It starts with "A few parts of this project are not in the public domain", to prevent accidentally implying that all the project's files are in the public domain. It lists exceptions in this format: "The file *filename* is from *project name*, by *name of author* [or copyright *name of author*], under *name of license*." Then it has a section titled "The rest of this project is in the public domain", with the typical license information we put in READMEs. The project's [CONTRIBUTING file](https://github.com/18F/web-design-standards/blob/18f-pages-staging/CONTRIBUTING.md) includes the same sections. The [LICENSE file](https://github.com/18F/web-design-standards/blob/18f-pages-staging/LICENSE.md) has the same sections again, plus the full license text for some embedded works and our standard LICENSE information.
+
 ## List the contact information for your team as well as where to ask questions.
 
 This part of the repo should make it easy for users to get in touch with the team developing the project. This is also where you should list any listservs, chat programs, or social media groups that have been created to keep contributors informed.
