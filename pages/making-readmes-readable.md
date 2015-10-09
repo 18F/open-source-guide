@@ -57,7 +57,7 @@ We [explicitly welcome outside contributors](https://github.com/18F/open-source-
 
 **Example:** The README for Midas contains a section called “[How you can help.](https://github.com/18f/midas#how-you-can-help)” What we really like about this section is that it doesn’t assume helpers are developers and lists ways for lots of different people to contribute. (Our [guide to welcoming non-coders to hackathons](https://18f.gsa.gov/2015/04/03/how-to-welcome-new-coders-to-a-civic-hackathon/) also contains many suggestions for ways to involve people with different skillsets.)
 
-We also recommend reading Midas’ [Contributor’s Guide](https://github.com/18F/midas/blob/devel/CONTRIBUTING.md), which orients new dev contributors and tells them the best ways to communicate with Midas’ dev team.
+We also recommend reading Midas’ [Contributor’s Guide](https://github.com/18F/midas/blob/dev/CONTRIBUTING.md), which orients new dev contributors and tells them the best ways to communicate with Midas’ dev team.
 
 ## List the licensing information for your project.
 
