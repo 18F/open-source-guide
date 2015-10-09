@@ -33,7 +33,46 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 >dedication. By submitting a pull request, you are agreeing to comply
 >with this waiver of copyright interest.
 
-### How To Create Your Own Guide
+
+### How to run a local copy of this guide
+
+(Instructions adapted from the [18F Documentation Working Group](https://github.com/18F/wg-documentation).)
+
+You will need [Ruby](https://www.ruby-lang.org) ( > version 2.1.5 ). You may
+consider using a Ruby version manager such as
+[rbenv](https://github.com/sstephenson/rbenv) or [rvm](https://rvm.io/) to
+help ensure that Ruby version upgrades don't mean all your
+[gems](https://rubygems.org/) will need to be rebuilt.
+
+On OS X, you can use [Homebrew](http://brew.sh/) to install Ruby in
+`/usr/local/bin`, which may require you to update your `$PATH` environment
+variable:
+
+```shell
+$ brew update
+$ brew install ruby
+```
+
+To serve the site locally:
+
+```shell
+$ git clone git@github.com:18F/open-source-guide.git
+$ cd open-source-guide
+$ ./go init
+$ ./go serve
+```
+
+This will check that your Ruby version is supported, install the [Bundler
+gem](http://bundler.io/) if it is not yet installed, install all the gems
+needed by the template, and launch a running instance on
+`http://localhost:4000/`. (Make sure to include the trailing
+slash! The built-in Jekyll webserver doesn't redirect to it.)
+
+After going through these steps, run `./go` to see a list of available
+commands. The `serve` command is the most common for routine development.
+
+
+### How to create your own guide
 
 This guide is based on the [DOCter template](https://github.com/cfpb/DOCter) created by the
 [Consumer Financial Protection Bureau](http://www.consumerfinance.gov/) (CFPB). Our canonical
