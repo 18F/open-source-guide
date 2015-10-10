@@ -58,7 +58,6 @@ To serve the site locally:
 ```shell
 $ git clone git@github.com:18F/open-source-guide.git
 $ cd open-source-guide
-$ ./go init
 $ ./go serve
 ```
 
