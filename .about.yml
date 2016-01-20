@@ -16,10 +16,12 @@ links:
 - url: https://pages.18f.gov/open-source-guide/
   text: 18F Open Source Guide
 links:
-- url: https://pages.18f.gov/open-source-guide/
-  text: 18F Open Source Guide
+- url: https://pages.18f.gov/open-source-program/
+  text: 18F Open Source Program
 team:
-- github: gbinal
-  role: lead
 - github: brittag
+  role: lead
+- github: adrianwebb
+  role: lead
+- github: gbinal
 - github: afeld
