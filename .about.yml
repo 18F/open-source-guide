@@ -1,0 +1,25 @@
+---
+name: open_source
+full_name: Open Source Working Group
+type: docs
+owner_type: "working-group"
+status: active
+testable: false
+description: >
+  We support 18F better practicing and implementing open source.  
+stage: live
+licenses:
+  wg-open_source:
+    name: Public Domain (CC0)
+    url: https://creativecommons.org/publicdomain/zero/1.0/ 
+links:
+- url: https://pages.18f.gov/open-source-guide/
+  text: 18F Open Source Guide
+links:
+- url: https://pages.18f.gov/open-source-guide/
+  text: 18F Open Source Guide
+team:
+- github: gbinal
+  role: lead
+- github: brittag
+- github: afeld
