@@ -15,9 +15,10 @@ licenses:
 links:
 - url: https://pages.18f.gov/open-source-guide/
   text: 18F Open Source Guide
-links:
 - url: https://pages.18f.gov/open-source-program/
   text: 18F Open Source Program
+- url: https://github.com/18F/open-source-policy
+  text: 18F Open Source Policy  
 team:
 - github: brittag
   role: lead
