@@ -34,9 +34,7 @@ This should answer the question: **How do I get this project to work on my machi
 
 Important: If relevant code changes, it’s important to test to ensure these instructions continue to work. We also recommend separating the sections for using a project versus developing for it. (More detailed instructions are located [in our guidelines](https://pages.18f.gov/open-source-program/pages/maintainer_guidelines/#usage-documentation) for writing documentation for users, contributors, and developers.)
 
-**Example:** The README for 18F’s homepage contains detailed instructions for [developing the site](https://github.com/18F/18f.gsa.gov#developing-the-site) and [deploying the site](https://github.com/18F/18f.gsa.gov#deploying-the-site).  
-
-**Example:** The README for Midas contains a link to [installation instructions](https://github.com/18F/midas/blob/devel/INSTALL.md) for developers.
+**Example:** The README for analytics.usa.gov contains detailed instructions for [developing the site](https://github.com/18f/analytics.usa.gov#setup) and [deploying the site](https://github.com/18f/analytics.usa.gov#deploying-to-staging-18f-specific).  
 
 ## Instructions for how people can help.
 
